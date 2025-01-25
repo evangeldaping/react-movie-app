@@ -17,5 +17,10 @@ export default defineConfig({
       ],
     },
   },
+  css: {
+    preprocessorOptions: {
+      // If you're using SCSS/SASS or other preprocessors, ensure they are configured
+    },
+  },
   plugins: [react()],
 })
