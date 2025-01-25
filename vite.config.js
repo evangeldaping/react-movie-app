@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   build: {
+    outDir: 'dist',
     rollupOptions: {
       external: [
         // Dependencies to leave out of the bundle
