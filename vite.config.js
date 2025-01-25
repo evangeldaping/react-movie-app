@@ -6,10 +6,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     rollupOptions: {
-      external: [
-        // Dependencies to leave out of the bundle
-        'react', 'react-dom', // For example, if you're using React and including it via CDN
-      ],
+      external: [], // Do NOT externalize react or react-dom
     },
   },
   server: {
